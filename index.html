@@ -1,13 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body {
+      background-color: #F5F5F5;
+      margin-top: 0px;
+      font-family: 'microsoft yahei';
+      color: #5a5a5a;
+    }
+
+    ul {
+      padding-left: 0px;
+    }
+
+    li {
+      list-style-type:none;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      width: 1000px;
+      height: 900px;
+      background-color: #FFF;
+    }
+
+    .left-side-bar {
+      float: left;
+      width: 230px;
+      height: 1000px;
+    }
+
+    .avatar {
+      background-color: #00a98f;
+      height: 230px;
+    }
+
+    .icon {
+      width: 120px;
+      margin-top: 20px;
+      border-bottom: 5px solid #00927c;
+    }
+
+    .name-cn {
+      color: #FFF;
+      font-size: 23px;
+      margin-top: 10px;
+    }
+
+    .name-en {
+      color: #FFF;
+      color: #87d2c7;
+      margin-top: 5px;
+      font-size: 15px;
+    }
+
+    .basic-info {
+      background-color: #1bc4ad;
+      height: 820px;
+    }
+
+    .basic-info .sector-label {
+      text-align: left;
+      padding-left: 20px;
+      color: #FFF;
+      padding-top: 20px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .basic-info .skills {
+      margin-top: 5px;
+    }
+
+    .basic-info .skills li {
+      height:20px;
+      margin:0px;
+    }
+
+    .basic-info .about-me {
+      text-align: left;
+      padding-left: 20px;
+      color: #a6e3d8;
+      padding-right: 20px;
+      font-size: 13px;
+      margin-top: 5px;
+    }
+
+    .basic-info .skill-name {
+      text-align: left;
+      color: #a6e3d8;
+      font-size: 12px;
+      margin-left: 20px;
+      margin-top: 5px;
+      float: left;
+      clear: left;
+    }
+
+    .basic-info .skill-capability {
+      float: right;
+      background-color: #F5F5F5;
+      height: 8px;
+      width: 120px;
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+
+    .basic-info .progress-bar {
+      height: 100%;
+      background-color: #00a98f;
+    }
+
+    .right-side-content {
+      float: right;
+      width: 769px;
+      height: 100px;
+      background-color: #FFF;
+      text-align: left;
+    }
+
+    .right-side-content .indent {
+      font-size: 13px;
+      color: #00927c;
+      line-height: 30px;
+      height: 30px;
+      margin-right: 15px;
+    }
+
+    .right-side-content .sector-label {
+      text-align: left;
+      font-size: 14px;
+      font-weight: bold;
+      padding-left: 30px;
+      padding-top: 20px;
+    }
+
+    .right-side-content .company {
+      float: left;
+      width: 439px;
+      padding-left: 30px;
+      line-height: 30px;
+      color: #00927c;
+      vertical-align: middle;
+      font-size: 13px;
+
+    }
+
+    .right-side-content .date {
+      float: right;
+      /* background-color: #DDD; */
+      width: 300px;
+      line-height: 30px;
+      font-size: 13px;
+    }
+
+    .right-side-content .job-position {
+      clear: both;
+      font-size: 13px;
+      margin-left: 56px;
+      font-weight: bold;
+    }
+
+    .right-side-content .job-detail {
+      font-size: 13px;
+      margin-left: 56px;
+      margin-right: 30px;
+      margin-top: 5px;
+    }
+
+  </style>
+  <script src="https://use.fontawesome.com/eae7564ac8.js"></script>
 </head>
-<body>
+<body style="text-align: center;">
 
-<h1>吴涛的个人简历</h1>
+  <div class="content">
 
+    <!-- left side box -->
+    <div class="left-side-bar">
+
+      <!-- avatar -->
+      <div class="avatar">
+        <img class="icon" src="assets/icon-bg2.png" />
+        <div class="name-cn">吴 涛</div>
+        <div class="name-en">WATERTAO</div>
+      </div>
+
+      <!-- basic info -->
+      <div class="basic-info">
+
+        <!-- about me -->
+        <div>
+          <div class="sector-label">ABOUT ME</div>
+          <p class="about-me">
+            An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+            extensive experience in the full life cycle of the software design process including requirements definition,
+            prototyping, proof concept, design, interface implementation, testing and maintenance.
+          </p>
+        </div>
+
+
+        <!-- skills -->
+        <div>
+          <div class="sector-label">SKILLS</div>
+          <ul class="skills">
+            <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+            <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+            <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+            <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+            <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+            <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+            <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+            <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+          </ul>
+        </div>
+
+
+        <!-- github barcode -->
+        <div>
+          <div class="sector-label">GITHUB</div>
+          <img style="width: 190px; margin-top: 10px;" src="assets/barcode-github.png" />
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <!-- right side box -->
+    <div class="right-side-content">
+      <div class="sector">
+        <div class="sector-label">EXPERIENCE</div>
+        <div class="sector-content">
+          <ul>
+            <li>
+              <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+              <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+              <div class="job-position">Technical Director</div>
+              <p class="job-detail">
+                An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+                extensive experience in the full life cycle of the software design process including requirements definition,
+                prototyping, proof concept, design, interface implementation, testing and maintenance.
+              </p>
+            </li>
+            <li>
+              <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+              <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+              <div class="job-position">Technical Director</div>
+              <p class="job-detail">
+                An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+                extensive experience in the full life cycle of the software design process including requirements definition,
+                prototyping, proof concept, design, interface implementation, testing and maintenance.
+              </p>
+            </li>
+            <li>
+              <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+              <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+              <div class="job-position">Technical Director</div>
+              <p class="job-detail">
+                An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+                extensive experience in the full life cycle of the software design process including requirements definition,
+                prototyping, proof concept, design, interface implementation, testing and maintenance.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 </body>
 </html>
