@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body {
+      background-color: #F5F5F5;
+      margin-top: 0px;
+      font-family: 'microsoft yahei';
+      color: #848484;
+    }
+
+    ul {
+      padding-left: 0px;
+    }
+
+    li {
+      list-style-type:none;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      width: 1000px;
+      height: 1500px;
+      background-color: #FFF;
+    }
+
+    .left-side-bar {
+      float: left;
+      width: 230px;
+      height: 1000px;
+    }
+
+    .avatar {
+      background-color: #00a98f;
+      height: 230px;
+    }
+
+    .icon {
+      width: 120px;
+      margin-top: 20px;
+      border-bottom: 5px solid #00927c;
+    }
+
+    .name-cn {
+      color: #FFF;
+      font-size: 23px;
+      margin-top: 10px;
+    }
+
+    .name-en {
+      color: #FFF;
+      color: #87d2c7;
+      margin-top: 5px;
+      font-size: 15px;
+    }
+
+    .basic-info {
+      background-color: #1bc4ad;
+      height: 1020px;
+    }
+
+    .basic-info .sector-label {
+      text-align: left;
+      padding-left: 20px;
+      color: #FFF;
+      padding-top: 20px;
+      font-size: 13px;
+      /*font-weight: bold;*/
+    }
+
+    .basic-info .skills {
+      margin-top: 5px;
+    }
+
+    .basic-info .skills li {
+      height:20px;
+      margin:0px;
+    }
+
+    .basic-info .contact-me {
+      margin-top: 5px;
+    }
+
+    .basic-info .contact-me li {
+      height:20px;
+      margin:0px;
+    }
+
+    .basic-info .about-me {
+      text-align: left;
+      padding-left: 20px;
+      color: #a6e3d8;
+      padding-right: 20px;
+      font-size: 13px;
+      margin-top: 5px;
+    }
+
+    .basic-info .skill-name {
+      text-align: left;
+      color: #a6e3d8;
+      font-size: 12px;
+      margin-left: 20px;
+      margin-top: 5px;
+      float: left;
+      clear: left;
+    }
+
+    .basic-info .skill-capability {
+      float: right;
+      background-color: #F5F5F5;
+      height: 8px;
+      width: 120px;
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+
+    .basic-info .contact-me .property-label {
+      text-align: left;
+      color: #ffffff;
+      font-size: 19px;
+      margin-left: 20px;
+      /* margin-top: 5px; */
+      float: left;
+      clear: left;
+      line-height: 30px;
+    }
+
+    .basic-info .contact-me .property {
+      float: right;
+      /* background-color: #F5F5F5; */
+      line-height: 30px;
+      width: 160px;
+      /* margin-top: 10px; */
+      margin-right: 20px;
+      color: #a6e3d8;
+      font-size: 13px;
+      text-align: left;
+    }
+
+    .basic-info .progress-bar {
+      height: 100%;
+      background-color: #00a98f;
+    }
+
+    .right-side-content {
+      float: right;
+      width: 769px;
+      height: 100px;
+      background-color: #FFF;
+      text-align: left;
+    }
+
+    .right-side-content .indent {
+      font-size: 13px;
+      color: #00927c;
+      line-height: 30px;
+      height: 30px;
+      margin-right: 15px;
+    }
+
+    .right-side-content .sector-label {
+      text-align: left;
+      font-size: 14px;
+      font-weight: bold;
+      padding-left: 30px;
+      padding-top: 20px;
+    }
+
+    .right-side-content .company {
+      float: left;
+      width: 439px;
+      padding-left: 30px;
+      line-height: 30px;
+      color: #00927c;
+      vertical-align: middle;
+      font-size: 13px;
+
+    }
+
+    .right-side-content .date {
+      float: right;
+      /* background-color: #DDD; */
+      width: 300px;
+      line-height: 30px;
+      font-size: 13px;
+    }
+
+    .right-side-content .job-position {
+      clear: both;
+      font-size: 13px;
+      margin-left: 56px;
+      font-weight: bold;
+    }
+
+    .right-side-content .job-detail {
+      font-size: 13px;
+      margin-left: 56px;
+      margin-right: 30px;
+      margin-top: 5px;
+    }
+
+  </style>
+  <script src="https://use.fontawesome.com/eae7564ac8.js"></script>
+</head>
+<body style="text-align: center;">
+
+<div class="content">
+
+  <!-- left side box -->
+  <div class="left-side-bar">
+
+    <!-- avatar -->
+    <div class="avatar">
+      <img class="icon" src="assets/icon-bg2.png" />
+      <div class="name-cn">吴 涛</div>
+      <div class="name-en">WATERTAO</div>
+    </div>
+
+    <!-- basic info -->
+    <div class="basic-info">
+
+      <!-- about me -->
+      <div>
+        <div class="sector-label">关于我</div>
+        <p class="about-me">
+          我啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哎呀哟诶暗示对方阿道夫
+        </p>
+      </div>
+
+
+      <!-- skills -->
+      <div>
+        <div class="sector-label">技能</div>
+        <ul class="skills">
+          <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+          <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+          <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+          <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+          <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+          <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+          <li><div class="skill-name">Java</div><div class="skill-capability"><div style="width: 100px;" class="progress-bar"></div></div></li>
+          <li><div class="skill-name">Spring</div><div class="skill-capability"><div style="width: 80px;" class="progress-bar"></div></div></li>
+        </ul>
+      </div>
+
+
+      <!-- contact me -->
+      <div>
+        <div class="sector-label">联系我</div>
+        <ul class="contact-me">
+          <li><div class="property-label"><i class="fa fa-map-marker indent" aria-hidden="true"></i></div><div class="property">中国 上海</div></li>
+          <li><div class="property-label"><i class="fa fa-phone indent" aria-hidden="true"></i></div><div class="property">+86 - 13818306274</div></li>
+          <li><div class="property-label"><i style="font-size: 17px;" class="fa fa-qq indent" aria-hidden="true"></i></div><div class="property">1059912278</div></li>
+          <li><div class="property-label"><i style="font-size: 16px;" class="fa fa-send indent" aria-hidden="true"></i></div><div class="property">watertao.wu@gmail.com</div></li>
+        </ul>
+      </div>
+
+
+      <!-- github barcode -->
+      <div style="clear: both;">
+        <div class="sector-label">GITHUB</div>
+        <img style="width: 190px; margin-top: 10px;" src="assets/barcode-github.png" />
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <!-- right side box -->
+  <div class="right-side-content">
+
+
+    <!-- Experience -->
+    <div class="sector">
+      <div class="sector-label">工作经历</div>
+      <div class="sector-content">
+        <ul>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>海南航空</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>2014-4 至 今</div>
+            <div class="job-position">技术总监</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>上海华腾软件系统有限公司</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>2006-12 至 2012-3</div>
+            <div class="job-position">软件研发工程师</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>上海思策软件有限公司</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+            <div class="job-position">软件研发工程师</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr style="margin: 30px; border: 1px solid #EEE;" />
+
+    <!-- Education -->
+    <div class="sector">
+      <div class="sector-label">教育经历</div>
+      <div class="sector-content">
+        <ul>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+            <div class="job-position">Technical Director</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+            <div class="job-position">Technical Director</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+            <div class="job-position">Technical Director</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr style="margin: 30px; border: 1px solid #EEE;" />
+
+    <!-- Education -->
+    <div class="sector">
+      <div class="sector-label">PROJECT</div>
+      <div class="sector-content">
+        <ul>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+            <div class="job-position">Technical Director</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+            <div class="job-position">Technical Director</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+          <li>
+            <div class="company"><i class="fa fa-square indent" aria-hidden="true"></i>Hainan Airlines</div>
+            <div class="date"><i class="fa fa-calendar indent" aria-hidden="true"></i>Apl 2014 to now</div>
+            <div class="job-position">Technical Director</div>
+            <p class="job-detail">
+              An accomplished Software Engineer specializing in Object-Oriented Design and Analysis with
+              extensive experience in the full life cycle of the software design process including requirements definition,
+              prototyping, proof concept, design, interface implementation, testing and maintenance.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+</body>
+</html>
